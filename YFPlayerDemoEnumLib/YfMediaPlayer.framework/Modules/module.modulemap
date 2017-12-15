@@ -1,0 +1,6 @@
+framework module YfMediaPlayer {
+  umbrella header "YfMediaPlayer.h"
+
+  export *
+  module * { export * }
+}

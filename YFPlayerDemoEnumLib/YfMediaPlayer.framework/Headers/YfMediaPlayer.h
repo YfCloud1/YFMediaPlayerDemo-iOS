@@ -1,0 +1,35 @@
+
+
+#import <UIKit/UIKit.h>
+
+//! Project version number for YfMediaPlayer.
+FOUNDATION_EXPORT double YfMediaPlayerVersionNumber;
+
+//! Project version string for YfMediaPlayer1.
+FOUNDATION_EXPORT const unsigned char YfMediaPlayerVersionString[];
+
+
+#import <YfMediaPlayer/YfMediaPlayback.h>
+#import <YfMediaPlayer/YfMPMoviePlayerController.h>
+#import <YfMediaPlayer/YfFFOptions.h>
+#import <YfMediaPlayer/YfFFMoviePlayerController.h>
+#import <YfMediaPlayer/YfAVMoviePlayerController.h>
+#import <YfMediaPlayer/YfMediaModule.h>
+#import <YfMediaPlayer/YfMediaPlayer.h>
+#import <YfMediaPlayer/YfNotificationManager.h>
+#import <YfMediaPlayer/YfKVOController.h>
+
+
+// backward compatible for old names
+#define YfMediaPlaybackIsPreparedToPlayDidChangeNotification YfMPMediaPlaybackIsPreparedToPlayDidChangeNotification
+#define YfMoviePlayerLoadStateDidChangeNotification YfMPMoviePlayerLoadStateDidChangeNotification
+#define YfMoviePlayerPlaybackDidFinishNotification YfMPMoviePlayerPlaybackDidFinishNotification
+#define YfMoviePlayerPlaybackDidFinishReasonUserInfoKey YfMPMoviePlayerPlaybackDidFinishReasonUserInfoKey
+#define YfMoviePlayerPlaybackStateDidChangeNotification YfMPMoviePlayerPlaybackStateDidChangeNotification
+#define YfMoviePlayerIsAirPlayVideoActiveDidChangeNotification YfMPMoviePlayerIsAirPlayVideoActiveDidChangeNotification
+#define YfMoviePlayerVideoDecoderOpenNotification YfMPMoviePlayerVideoDecoderOpenNotification
+#define YfMoviePlayerFirstVideoFrameRenderedNotification YfMPMoviePlayerFirstVideoFrameRenderedNotification
+#define YfMoviePlayerFirstAudioFrameRenderedNotification YfMPMoviePlayerFirstAudioFrameRenderedNotification
+#define YfMPMoviePlayerAccurateSeekCompleteNotification YfMPMoviePlayerAccurateSeekCompleteNotification
+
+#define YFPlayerVision @"0.0.4"
